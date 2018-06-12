@@ -1,12 +1,15 @@
 spring: 
  profiles: 
   active: 
-   -dev
+   - dev
+   
+---  
 spring: 
  profiles: dev
  application: 
   name: mscloud-config-suobei-dev
   
+---
 spring: 
  profiles: test
  application: 
